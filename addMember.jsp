@@ -59,7 +59,7 @@
             </div>
         </div>
         <div class="container">
-            <form name="newMember" action="procesAddMember.jsp" method="post" onsubmit="return checkForm()">
+            <form name="newMember" action="processAddMember.jsp" method="post" onsubmit="return checkForm()">
                 <div class="form-group row">
                     <label class="col-sm-2 col-form-label">아이디</label>
                     <div class="col-sm-3">
@@ -121,7 +121,7 @@
                             <option>naver.com</option>
                             <option>daum.net</option>
                             <option>google.com</option>
-                            <option>naet.com</option>
+                            <option>nate.com</option>
                         </select>
                     </div>
                 </div>

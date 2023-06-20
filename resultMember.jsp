@@ -22,15 +22,15 @@
 
                 if (msg != null){
                     if (msg.equals("0"))
-                        out.println("<h2 class='alert alert-danger'>회원정보가 수정되었습니다.</h2>");
+                        out.println("<h2 class='alert alert-primary'>회원정보가 수정되었습니다.</h2>");
                     else if (msg.equals("1"))
                         out.println("<h2 class='alert alert-success'>회원가입을 축하드립니다.</h2>");
                     else if (msg.equals("2")){
-                        String loginId = (String) session.getAttribute("sessionID");
+                        String loginId = (String) session.getAttribute("sessionId");
                         out.println("<h2 class='alert alert-success'>" + loginId + "님 환영합니다.</h2>");
                     }
                 } else {
-                    out.println("<h2 class='alert alert-danger'>회원정보가 삭제되었습니다.</h2>");
+                    out.println("<h2 class='alert alert-danger'>회원 탈퇴가 완료되었습니다.</h2>");
                 }
             %>
         </div>
